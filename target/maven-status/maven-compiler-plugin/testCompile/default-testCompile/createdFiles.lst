@@ -1,0 +1,5 @@
+com/sky/test/TestRunner.class
+com/sky/test/pages/HomePage.class
+com/sky/test/stepDefinitions/TestStepDefinition.class
+com/sky/test/pages/ShopPage.class
+com/sky/test/stepDefinitions/ScenarioSteps.class
