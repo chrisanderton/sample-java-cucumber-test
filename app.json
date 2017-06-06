@@ -1,4 +1,14 @@
 {
   "name": "Testing",
-  "description": "Trying out CI"
+  "description": "Trying out CI",
+  {
+    "environments": {
+      "test": {
+        "buildpacks": [
+          { "url": "heroku/java" },
+          { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" }
+        ]
+      }
+    }
+  }
 }
