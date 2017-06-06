@@ -8,5 +8,4 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = { "src/test/resources/features/first.feature" }, glue = {
 		"com.sky.test.stepDefinitions" }, tags = { "@test" })
 public class TestRunner {
-  System.setProperty("webdriver.chrome.driver", "/app/.apt/usr/bin/google-chrome");
 }
